@@ -1,0 +1,10 @@
+<view class="box">
+  <form bindsubmit="triangle">
+    请输入三角形边长：
+    <input type='digit' name="a" placeholder='请输入第一条边长：' />
+    <input type='digit' name="b" placeholder='请输入第二条边长：' />
+    <input type='digit' name="c" placeholder='请输入第三条边长：' />
+    <button form-type="submit" bindtap="triangle">计算</button>
+  </form>
+  <view hidden="{{flag}}" class='content'>三角形面积为：{{result}}</view>
+</view>

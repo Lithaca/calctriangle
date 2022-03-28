@@ -1,0 +1,33 @@
+/**index.wxss**/
+.title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: rgb(112, 112, 0)
+}
+.placeholder {
+  font-size: 15px;
+}
+input {
+  margin: 20px 3px;
+  border: 1px solid rgb(32, 28, 25);
+  height: 120rpx;
+  padding-left: 8px;
+}
+button {
+  color: white;
+  background-color: red;
+}
+.content {
+  background: white;
+  padding: 10px;
+  color: red;
+}
+
+.box{
+  border: black 2px solid;
+  border-radius: 2vw;
+  margin: 5px;
+  padding: 5px;
+  box-shadow: 1px 1px #555;
+}
